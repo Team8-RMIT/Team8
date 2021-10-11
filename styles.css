@@ -1,0 +1,55 @@
+body {
+  font-family:verdana;
+  background-color:rgb(15,15,15);
+}
+h1 {
+  font-size:3em;
+  color: white;
+}
+
+h2{
+    font-size: 2em;
+    font-weight: lighter;
+    color: rgb(255,255,255);
+}
+
+h3{
+  margin-left: 2em;
+    font-size: 1em;
+    font-weight: lighter;
+    color: rgb(255,255,255);
+}
+
+p {
+  font-size: 2em;
+  color: rgb(0,0,0);
+}
+
+p1 {
+  font-size: 2em;
+  color: rgb(90,120,190);
+}
+
+.ParentContainter{
+  display: flex;
+}
+
+.MainContainer{
+flex:1;
+background-image: url('https://images.pexels.com/photos/1166209/pexels-photo-1166209.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+background-repeat:no-repeat;
+background-size: cover;
+width: 100%;
+height:auto;
+}
+
+.alphaColour{
+  flex:1;
+  padding: 50px;
+  background-color: rgba(20,120,230,0.5);
+}
+
+.MainHeader{
+  text-align: center;
+  padding:10px
+}

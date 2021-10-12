@@ -334,11 +334,22 @@ color:rgba(0,0,0,0.8);
 .boxText{
 text-align:center;
 font-size:1em;
+padding-left:40px;
+padding-right: 60px;
 color:rgba(0,0,0,0.8);
+}
+
+.boxTextStudentID{
+text-align:center;
+font-size:0.7em;
+padding-right:10px;
+color:rgba(120,120,220,1);
 }
 
 .boxTextTitle{
 text-align:center;
+padding-left:10px;
+padding-right:10px;
 font-size:1.2em;
 font-weight:bold;
 color:rgba(0,0,0,1);

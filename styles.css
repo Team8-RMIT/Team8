@@ -237,6 +237,16 @@ margin:0px;
 }
 
 
+.section04Div{
+flex:0;
+padding-top:20px;
+padding-bottom:20px;
+padding-right:10px;
+text-align: center;
+border-bottom: rgba(0,0,80,0.2) solid 0.5px;
+margin:0px;
+}
+
 
 ul.nav {
   list-style-type: none;
@@ -348,6 +358,7 @@ color:rgba(120,120,220,1);
 
 .boxTextTitle{
 text-align:center;
+word-wrap:normal;
 padding-left:10px;
 padding-right:10px;
 font-size:1.2em;

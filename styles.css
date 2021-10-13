@@ -411,7 +411,8 @@ margin-left:10px;
 .navFontHover:hover{
 font-weight: bold;
 padding-bottom: 2px;
-border-bottom: rgba(0,0,180,0.4) solid 4px;
+border-bottom: rgba(80,20,220,0.5) solid 6px;
+
 }
 
 

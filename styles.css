@@ -166,7 +166,12 @@ background-color:rgba(0,0,130,0.3);
 display: flex;
 margin-left:180px;
 margin-right:180px;
+}
 
+.boxInfoPadded{
+display: flex;
+margin-left:180px;
+margin-right:180px;
 }
 
 .section01Div {
@@ -239,6 +244,36 @@ padding-top:20px;
 padding-bottom:20px;
 text-align: center;
 border-left: rgba(0,0,80,0.2) solid 0.5px;
+margin:0px;
+}
+
+
+.section03Div01Top{
+flex:2;
+padding-top:20px;
+padding-bottom:20px;
+text-align: center;
+border-top: rgba(0,0,80,0.2) solid 0.5px;
+margin:0px;
+}
+
+.section03Div01TopR{
+flex:2;
+padding-top:20px;
+padding-bottom:20px;
+text-align: center;
+border-top: rgba(0,0,80,0.2) solid 0.5px;
+border-right: rgba(0,0,80,0.2) solid 0.5px;
+margin:0px;
+}
+
+.section03Div01BL{
+flex:2;
+padding-top:20px;
+padding-bottom:20px;
+text-align: center;
+border: rgba(0,0,80,0.2) solid 0.5px;
+
 margin:0px;
 }
 

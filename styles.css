@@ -247,6 +247,55 @@ border-bottom: rgba(0,0,80,0.2) solid 0.5px;
 margin:0px;
 }
 
+.section05Div{
+margin:auto;
+width: 50%;
+text-align: center;
+}
+
+.section05DivGallery{
+  text-align: center;
+  border-bottom: rgba(0,0,80,0.2) solid 0.5px;
+}
+
+.personalityWordTitle{
+  text-align: center;
+font-weight: bold;
+color: black;
+}
+
+.leftWord{
+  font-weight: bold;
+  float:left;
+  font-size: 0.9em;
+  margin-left:150px;
+  color: rgba(20,20,20,0.8);
+}
+.rightWord{
+  font-weight: bold;
+  float:right;
+  font-size: 0.9em;
+  margin-right:150px;
+  color: rgba(20,20,20,0.8);
+}
+
+.line{
+  border: solid rgb(120,120,120,0) 1px;
+  background-color: rgb(120,120,120,0.6);
+  border-radius: 10px;
+  margin:auto;
+  height:14px;
+  width: 50%;
+}
+
+.fill{
+  border: solid rgb(0,0,0,0.2) 1px;
+  border-radius: 10px;
+  margin:auto;
+  width: 50%;
+  height:12px;
+}
+
 
 ul.nav {
   list-style-type: none;

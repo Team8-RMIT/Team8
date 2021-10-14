@@ -544,3 +544,20 @@ border-left: rgba(0,0,80,0.2) solid 0.5px;
 width:120px;
 height: 120px;
 }
+
+.imagesIdol{
+}
+
+.imagesIdol:hover{
+  transition-delay: 0.2s;
+  transform: scale(1.2);
+}
+
+.boxTextStudentID:hover{
+  font-weight: bold;
+}
+
+.boxText:hover{
+  transition-delay: 0.8s;
+  font-size: 1.7em;
+}

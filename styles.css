@@ -532,10 +532,15 @@ color:rgba(0,0,0,0.8);
 background-color: white;
 display: inline-block;
 position:fixed;
-top:72px;
+top:71px;
 height: 100%;
 width:17%;
 border-bottom: rgba(0,0,80,0.2) solid 0.5px;
 border-right: rgba(0,0,80,0.2) solid 0.5px;
 border-left: rgba(0,0,80,0.2) solid 0.5px;
+}
+
+.miniImages{
+width:120px;
+height: 120px;
 }

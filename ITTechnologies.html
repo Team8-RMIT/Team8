@@ -36,20 +36,35 @@
 </div>
 
 <div class="parentInfo">
+
+
   <div class="section02Div">
+
        <p class="blurb">
         IT Technologies collabaration of 4 different aspects of the Technology relating to IT.
          <br>
        </p>
+
 <br></br>
    </div>
+
+   <div class="floatingLinks" id="floatingLinks">
+     <a href="#firstItem"><p class="boxTextLeftMenu">1.Cyber Security.</p></a>
+     <a href="#secondItem"><p class="boxTextLeftMenu">2.Blockchain and Cryptocurrencies.</p></a>
+     <a href="#thirdItem"><p class="boxTextLeftMenu">3.Clouds, Services and Servers.</p></a>
+     <a href="#fourthItem"><p class="boxTextLeftMenu">4.Machine Learning.</p></a>
+   </div>
+
+<a id="firstItem"></a>
 </div>
 
 <!--Cybersecurity-->
 <div class="section06Div">
   <div class="section06Div02">
+
     <h class="boxTextTitleLarge">IT Technologies - Cybersecurity</h>
     <br>
+
       <div class="section06Div01">
         <h class="boxTextTitle">What does it do?</h>
         <p class="boxTextLeft">
@@ -88,15 +103,19 @@
               <br><br>
               Cybersecurity is essential to the upcoming change in the technological landscape and there is always a target for attackers when we deal in the new gold of the space age being data. Deep learning and cloud computing is not going away and the adaptation to these technologies needs to be embraced but still micromanaged enough to not allow for attacks to have a knock on effect on the people who use these services.
            <br>
+           <a id="secondItem"></a>
          </div>
      </div>
+
  </div>
 
  <!--Blockchain and Crptocurrencies-->
+
  <div class="section06Div">
    <div class="section06Div02">
      <h class="boxTextTitleLarge">IT Technologies - Blockchain and Cryptocurrencies</h>
      <br>
+
        <div class="section06Div01">
          <h class="boxTextTitle">What does it do?</h>
          <p class="boxTextLeft">
@@ -108,9 +127,8 @@
            The second is the fastness and simplicity behind the transactions. With cryptocurrencies like Bitcoin, it takes out the ‘middleman’ and no longer has the small part paid to the bank when used.
         <br>
         </div>
-
-
         <br>
+
         <h class="boxTextTitle">What is the likely impact?</h>
           <div class="section06Div01">
             <p class="boxTextLeft">
@@ -123,6 +141,7 @@
              <p class="boxTextLeft">
                -
             <br>
+            <a id="thirdItem"></a>
           </div>
       </div>
   </div>
@@ -169,6 +188,8 @@
                 <br><br>
                 Online shopping platforms, pre pre-installed navigation programs are also other areas where this cloud services have affected. Thanks to social media and the cloud computing, we are able to stay connected with our families and friends in this pandemic and with those who are staying far away from us.
              <br>
+             <a id="fourthItem"></a>
+
            </div>
        </div>
    </div>
@@ -206,6 +227,20 @@
 
 
 <br></br>
+<script>
+
+document.getElementById('floatingLinks').style.display='none';
+document.onscroll = function() {
+    var y = window.scrollY;
+    if (y >= 300) {
+        document.getElementById('floatingLinks').style.display='block';
+    }else{
+        document.getElementById('floatingLinks').style.display='none';
+    }
+}
+
+</script>
+
 <footer>
   <div class="footer">
     <p class="boxTextTitle">Team 8 - 2021</p>

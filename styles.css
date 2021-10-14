@@ -437,6 +437,7 @@ margin-left:10px;
 
 
 .navFontHover:hover{
+transition-delay: 0.2s;
 font-weight: bold;
 padding-bottom: 2px;
 border-bottom: rgba(80,20,220,0.5) solid 6px;
@@ -480,6 +481,15 @@ padding-right: 60px;
 color:rgba(0,0,0,0.8);
 }
 
+.boxTextLeftMenu{
+text-align:left;
+font-weight: bold;
+font-size:0.9em;
+padding-left:40px;
+padding-right: 60px;
+color:rgba(0,0,0,0.8);
+}
+
 
 
 .boxTextStudentID{
@@ -516,4 +526,16 @@ padding-left:40px;
 padding-right: 60px;
 font-weight:bold;
 color:rgba(0,0,0,0.8);
+}
+
+.floatingLinks{
+background-color: white;
+display: inline-block;
+position:fixed;
+top:72px;
+height: 100%;
+width:17%;
+border-bottom: rgba(0,0,80,0.2) solid 0.5px;
+border-right: rgba(0,0,80,0.2) solid 0.5px;
+border-left: rgba(0,0,80,0.2) solid 0.5px;
 }

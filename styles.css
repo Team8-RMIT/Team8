@@ -558,6 +558,4 @@ height: 120px;
 }
 
 .boxText:hover{
-  transition-delay: 0.8s;
-  font-size: 1.7em;
 }

@@ -17,6 +17,8 @@ a:hover {
 
 }
 
+
+
 h1 {
   font-size:2em;
   color: White;
@@ -84,8 +86,29 @@ text-align:left;
   color: rgb(255,255,255);
 }
 
+table{
+
+  padding-left:120px;
+}
+
+th{
+  background-color: rgb(0,100,220);
+  color:white;
+    margin-left: 40px;
+    padding-right: 120px;
+    border:solid 1px;
+}
+tr{
+  text-align: left;
+
+}
+
 td {
-color: white;
+  font-size:0.8em;
+color: black;
+text-align: left;
+padding-right:5px;
+border:solid 1px;
 }
 
 li {
@@ -179,11 +202,6 @@ margin-left:180px;
 margin-right:180px;
 }
 
-.mockupImageContainer{
-  margin-right:35%;
-  margin-left:35%;
-  width: 40%;
-}
 
 .boxInfoPadded{
 display: flex;
@@ -629,4 +647,16 @@ font-weight:bold;
   width:300px;
   height: 500px;
   padding:20px;
+}
+
+.mockupImageContainer{
+  margin-right:35%;
+  margin-left:35%;
+  width: 40%;
+}
+
+.mockupVideoContainer{
+  background-color:rgb(0,0,0,1);
+  margin:auto;
+  width:100%;
 }

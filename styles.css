@@ -471,6 +471,7 @@ background-color:white;
 position: fixed;
 top: 0;
 border-bottom: rgba(0,0,80,0.2) solid 0.5px;
+z-index:1;
 }
 
 .navPanel {

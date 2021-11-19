@@ -112,12 +112,12 @@ border:solid 1px rgba(0,0,0,0.3);
 }
 
 li {
-  font-size:0.88em;
+  font-size:1em;
   color: rgba(0, 0, 0,0.8);
   list-style-type: none;
   margin-top:10px;
   margin-bottom:10px;
-  margin-left: 50px;
+  margin-left: 20px;
   margin-right:20px;
   text-align:left;
   overflow: hidden;

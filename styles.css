@@ -87,13 +87,13 @@ text-align:left;
 }
 
 table{
-
-  padding-left:120px;
+  padding-left:0px;
+  background-color: rgba(150,150,150,0.2);
 }
 
 th{
-  background-color: rgb(0,100,220);
-  color:white;
+   background-color: rgb(130,150,220);
+   color:rgba(255,255,255,1);
     margin-left: 40px;
     padding-right: 120px;
     border:solid 1px;
@@ -108,16 +108,16 @@ td {
 color: black;
 text-align: left;
 padding-right:5px;
-border:solid 1px;
+border:solid 1px rgba(0,0,0,0.3);
 }
 
 li {
-  font-size:1em;
-  color: rgb(0, 0, 0);
+  font-size:0.88em;
+  color: rgba(0, 0, 0,0.8);
   list-style-type: none;
   margin-top:10px;
   margin-bottom:10px;
-  margin-left: 20px;
+  margin-left: 50px;
   margin-right:20px;
   text-align:left;
   overflow: hidden;
@@ -125,19 +125,17 @@ li {
 }
 
 .dotpoints:before {
-  font-size:1em;
-  color: rgb(0, 0, 0);
-  margin-top:10px;
-  margin-bottom:10px;
-  margin-left: 20px;
-  margin-right:0;
-  text-align:left;
-  overflow: hidden;
-   content:"• ";
+
+}
+
+.dotpoints{
+  list-style: none;
+  background: transparent url("Images/dotpoint.png") no-repeat left top;
+  padding-left: 25px; /* or whatever the width of your image is, plus a gap */
 }
 
 ul{
-text-align: left;
+ list-style-position: outside;
 }
 
 .container{
